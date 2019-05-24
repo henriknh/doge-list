@@ -25,5 +25,11 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Run with Docker
+
+```
+docker build -t henriknh/doge-list .
+docker run -it -p 8080:8080 --rm --name henriknh-doge-list-1 henriknh/doge-list
+```
+
+App should now we accessable at `localhost:8080`
