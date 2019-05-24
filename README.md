@@ -1,5 +1,8 @@
 # doge-list
 
+Mini project for interview with 4C Strategies AB.
+API used is facilitated by Dog API under GNU General Public License v3.0. 
+
 ## Project setup
 ```
 npm install
